@@ -6,4 +6,7 @@ else
 end
 
 # write your own tests here
-@test 1 == 2
+cmaps=[:algae,:amp,:balance,:curl,:deep,:delta,:dense,:gray,:haline,:ice,:matter,:oxy,:phase,:solar ,:speed,:tempo,:thermal,:turbid]
+sz=[size(cmocean[cm],1) for cm in cmaps]
+@test size(sz, 1)==1
+@test all([z==256 || z==512 for z in sz])

@@ -31,6 +31,5 @@ relayout!(p, height=1080, width=400); display(p);
 
 ![ocean colormaps][cmocean]
 
-[cmocean]: ./code/julia/pkg/v0.6/ColormapsOcean/test/cmocean.png "Ocean Colormaps"
-
+[cmocean]: https://github.com/stephancb/ColormapsOcean.jl/blob/master/test/cmocean.png "Ocean Colormaps"
 
